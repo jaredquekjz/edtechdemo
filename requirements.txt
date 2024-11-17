@@ -1,0 +1,5 @@
+streamlit
+rich
+pypandoc
+openai
+langchain-fireworks

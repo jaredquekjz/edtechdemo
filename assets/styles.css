@@ -1,0 +1,42 @@
+/* Header */
+/* Center the header text */
+div[data-testid="stHeading"] h1 {
+  text-align: center;
+}
+
+/* Center the image container and override its width */
+div[data-testid="stImage"] {
+  width: 70% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-left: 40px !important;
+}
+
+/* Style the image */
+div[data-testid="stImage"] img {
+  border-radius: 10% !important;
+  object-fit: cover !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Chat Input */
+textarea[data-testid="stChatInput"] {
+  padding: 1.2rem;
+}
+
+textarea[data-testid="stChatInput"]::placeholder {
+  opacity: 0.8;
+}
+
+div.stChatInputContainer > div > div:nth-child(3) {
+  align-items: center;
+}
+
+div.stChatInputContainer > div > div:nth-child(3) button {
+  border-radius: 50%;
+  position: relative;
+  right: 4pt;
+}
+
