@@ -40,7 +40,7 @@ MODELS = {
 MODEL_TYPES = {
     "Base GPT4o-mini": "openai",
     "Finetuned GPT4o-mini": "openai",
-    "PandAI Test": "fireworks"
+    "Finetuned llama3.1-8b": "fireworks"
 }
 
 # Initialize Fireworks client (add near the OpenAI client initialization)
